@@ -24,9 +24,7 @@
 - Fluent Validation
 - Authentication - Authorization : Identity
 - Paging - Google Chart - Alerts
-- 
-- 
-
+  
 ## Proje Videosu
 
 https://github.com/YunusEmreMaral/Maral_Blog/assets/108576886/17b3ced0-97e9-47ef-beb8-6e1f6b973be3
