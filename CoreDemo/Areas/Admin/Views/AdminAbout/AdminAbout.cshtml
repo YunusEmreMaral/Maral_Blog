@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Concrete.About
+
+@{
+    ViewData["Title"] = "AdminAbout";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Admin About</h1>
+
+<div>
+    @using (Html.BeginForm("UpdateAbout", "Admin", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label for="aboutContent">About Content:</label>
+            <textarea class="form-control" id="aboutContent" name="aboutContent" rows="12">@Model.AboutDetails1</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Değiştir</button>
+    }
+</div>

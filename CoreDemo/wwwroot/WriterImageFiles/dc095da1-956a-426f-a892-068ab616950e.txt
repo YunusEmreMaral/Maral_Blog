@@ -1,0 +1,340 @@
+Temel Algoritma ve Programlama 1
+Değişkenler ve Veri Tipleri
+
+Değişken tanımlama
+Temel veri tipleri: int, float, double, string, bool
+Tür dönüşümleri
+Temel Operatörler
+
+Aritmetik operatörler (+, -, *, /, %)
+Karşılaştırma operatörleri (<, >, <=, >=, ==, !=)
+Mantıksal operatörler (&&, ||, !)
+Koşullu İfadeler
+
+if, else if, else
+switch-case yapısı
+Döngüler
+
+for döngüsü
+while döngüsü
+do-while döngüsü
+Diziler
+
+Dizi tanımlama ve kullanma
+Dizi elemanlarına erişim
+Döngülerle dizileri kullanma
+Temel Algoritma ve Programlama 2
+Fonksiyonlar
+
+Fonksiyon tanımlama ve kullanma
+Parametreli ve parametresiz fonksiyonlar
+Fonksiyonlardan değer döndürme
+String İşlemleri
+
+String birleştirme
+Karakter dizisi işlemleri
+String formatlama
+Matematiksel İşlemler
+
+Math kütüphanesi kullanımı
+Temel matematik fonksiyonları (abs, sqrt, pow)
+Dizi İşlemleri
+
+Dizilerle ilgili daha fazla işlem (sıralama, ters çevirme)
+Çok boyutlu diziler
+Dosya İşlemleri (Opsiyonel)
+
+Dosya okuma ve yazma işlemleri
+StreamReader ve StreamWriter kullanımı
+
+
+-------------
+
+Windows Forms Uygulamalarına Giriş
+Windows Forms Projesi Oluşturma
+
+Yeni bir Windows Forms projesi oluşturma
+Proje bileşenleri: Form, Button, TextBox, Label, vb.
+Form Tasarımı
+
+Form elemanlarına yerleştirme ve özelliklerini düzenleme
+Layout yönetimi (FlowLayout, GridLayout, TableLayout)
+Olaylar (Events)
+
+Buton tıklama, form yüklenme gibi olaylar
+Olayları kullanarak etkileşim sağlama
+Kontroller ve Form Elemanları
+TextBox ve Label Kullanımı
+
+Kullanıcıdan giriş almak için TextBox
+Sonuç göstermek için Label
+Button ve Diğer Kontroller
+
+Button kullanımı
+CheckBox, RadioButton, ComboBox kullanımı
+Liste Kutuları (ListBox ve ListView)
+
+ListBox ve ListView kullanımı
+Veri bağlama işlemleri
+Form Programlama Temelleri
+Form Elemanlarıyla Çalışma
+
+Form elemanlarına erişim ve manipülasyon
+Kontrol içi etkileşimler
+Kullanıcı Girişi ve Doğrulama
+
+Kullanıcıdan bilgi almak için form elemanları
+Girişleri doğrulama ve hata yönetimi
+MessageBox ve Dialog Pencereleri
+
+MessageBox kullanımı
+Özel dialog pencereleri oluşturma
+İleri Windows Forms Konuları
+Veritabanı Bağlantısı (Opsiyonel)
+
+SQL Server veya diğer veritabanlarına bağlantı
+Veritabanından veri çekme ve gösterme
+Grafik ve Çizim İşlemleri (Opsiyonel)
+
+Form üzerinde çizim yapma
+Grafik nesneleri kullanma
+Raporlama (Opsiyonel)
+
+Crystal Reports veya diğer raporlama araçları ile rapor oluşturma
+Raporları Windows Forms uygulamasına entegre etme
+
+
+------------
+
+
+Veritabanı ve Tablo İşlemleri
+Veritabanı Oluşturma ve Silme
+
+CREATE DATABASE ve DROP DATABASE komutları
+Tablo Oluşturma ve Yönetimi
+
+CREATE TABLE ile tablo oluşturma
+ALTER TABLE ile tabloya sütun ekleme veya silme
+DROP TABLE ile tablo silme
+Veri Türleri ve Sınırlamalar
+
+Veri tipleri (int, varchar, date, vb.)
+Sütunlara sınırlamalar (NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK)
+Temel Sorgu İşlemleri
+SELECT İşlemleri
+
+Temel SELECT sorguları
+Sütun seçimi, alias kullanımı
+Filtreleme ve Sıralama
+
+WHERE ve ORDER BY kullanımı
+Mantıksal operatörler (AND, OR, NOT)
+Toplama ve Gruplama
+
+SUM, COUNT, AVG, MIN, MAX fonksiyonları
+GROUP BY ve HAVING kullanımı
+Veri Manipülasyonu
+Veri Ekleme, Güncelleme ve Silme
+
+INSERT INTO ile veri ekleme
+UPDATE ile veri güncelleme
+DELETE ile veri silme
+Alt Sorgular
+
+Alt sorguların kullanımı
+İç içe sorgular ve JOIN'lar
+Diziler ve Geçici Tablolar (Opsiyonel)
+
+Dizi (Array) veri yapısı
+Geçici tabloların oluşturulması ve kullanımı
+İleri SQL Konuları
+Depo Prosedürleri ve Fonksiyonlar (Opsiyonel)
+
+Depo prosedürü ve fonksiyon oluşturma
+Parametre kullanımı
+Görünümler (Views) (Opsiyonel)
+
+Görünümler oluşturma ve kullanma
+Güncellenebilir görünümler
+İndeksler ve Performans Optimizasyonu (Opsiyonel)
+
+İndekslerin kullanımı ve avantajları
+Performans optimizasyon teknikleri
+
+
+------------------------------------------------------
+
+
+
+Bağlantı (Connection) İşlemleri
+Veritabanına Bağlanma
+
+SqlConnection sınıfını kullanarak veritabanına bağlanma
+Bağlantı dizesi kullanımı
+Bağlantı Durumları ve Hata Yönetimi
+
+Bağlantı durumlarını kontrol etme
+Hata yönetimi ve try-catch blokları
+Komut (Command) İşlemleri
+SqlCommand Kullanımı
+
+SELECT, INSERT, UPDATE, DELETE sorguları
+Parametre kullanımı ve SQL Injection önleme
+Transaction Yönetimi
+
+Transaction kullanımı ve işlemleri gruplama
+Transaction Commit ve Rollback
+Veri Okuma ve Yazma İşlemleri
+Veri Okuma (DataReader)
+
+SqlDataReader ile veri okuma
+Veri okuma stratejileri (Forward-only, Forward-only with Read-Only, Keyset-driven, Mixed)
+Dataset ve DataAdapter Kullanımı
+
+SqlDataAdapter ile veri çekme ve doldurma
+Dataset ve DataTable kullanımı
+Veri Ekleme, Güncelleme ve Silme (CRUD)
+
+Dataset üzerinde veri ekleme, güncelleme ve silme
+DataAdapter'ın güncelleme işlemlerini yönetme
+Veri Bağlama (Data Binding)
+Veri Bağlama Temelleri
+
+Veri bağlama işlemleri ve temel bağlama yöntemleri
+Windows Forms kontrollerine veri bağlama
+DataGridView Kullanımı
+
+DataGridView kontrolü ile veri gösterme
+Veri sıralama ve filtreleme
+İleri ADO.NET Konuları
+Stored Procedure ve Parametre Kullanımı (Opsiyonel)
+
+Stored Procedure oluşturma ve çağırma
+Parametre kullanımı
+LINQ to DataSet (Opsiyonel)
+
+LINQ kullanarak Dataset üzerinde sorgular yapma
+Veriye LINQ ile erişme
+Async ve Await İle Asenkron İşlemler (Opsiyonel)
+
+Asenkron veritabanı işlemleri
+async ve await kullanımı
+
+-----------------------------------------------
+
+Temel Veri Yapıları
+Dizi (Array)
+
+Dizi tanımlama ve kullanma
+Dizi üzerinde temel işlemler (erişim, ekleme, silme)
+Linked List
+
+Bağlı liste tanımlama
+Tek yönlü ve çift yönlü bağlı listeler
+Bağlı liste üzerinde temel işlemler
+Stack (Yığın)
+
+Yığın kavramı ve temel işlemler (push, pop)
+LIFO (Last In, First Out) prensibi
+Queue (Kuyruk)
+
+Kuyruk kavramı ve temel işlemler (enqueue, dequeue)
+FIFO (First In, First Out) prensibi
+Tree (Ağaç)
+
+Ağaç ve alt türleri (binary tree, AVL tree)
+Ağaç üzerinde temel işlemler (ekleme, silme, dolaşma)
+Graph (Graf)
+
+Graf tanımlama ve temel kavramlar (düğüm, kenar)
+Graf üzerinde gezinme (derinlik öncelikli, genişlik öncelikli)
+Temel Algoritmalar
+Sıralama Algoritmaları
+
+Bubble sort, insertion sort, selection sort
+Quick sort, merge sort
+Arama Algoritmaları
+
+Linear search, binary search
+Hashing ve hash tabloları
+Temel Arama ve Sıralama Algoritmaları Analizi
+
+Big O notasyonu ve algoritmaların karmaşıklığı
+En iyi, ortalama ve en kötü durum analizleri
+İleri Veri Yapıları
+Heap (Yığın)
+
+Minimum ve maksimum yığınları
+Heap sort algoritması
+Trie (Önek Ağacı)
+
+Önek ağaçlarının kullanım alanları
+Veri tabanları ve metin aramada kullanımı
+Gelişmiş Graf Algoritmaları (Opsiyonel)
+
+Kısa yol (en kısa yol, Dijkstra, Bellman-Ford)
+Akış ağları (en maksimum akış, Ford-Fulkerson)
+
+
+
+
+--------------------------------------
+
+
+Temel Nesne Tabanlı Programlama Kavramları
+Sınıflar ve Nesneler
+
+Sınıfların tanımlanması ve özellikleri
+Nesnelerin sınıflardan türetilmesi
+Üye Değişkenler ve Metotlar
+
+Sınıflarda üye değişkenlerin tanımlanması
+Metotların sınıflarda tanımlanması
+Kalıtım (Inheritance)
+
+Bir sınıftan diğer bir sınıfa kalıtım alma
+Temel sınıf (base class) ve türetilmiş sınıf (derived class)
+Çok Biçimlilik (Polymorphism)
+
+Çok biçimlilik kavramı
+Metodun aşırı yüklenmesi (overloading) ve iptal edilmesi (overriding)
+Soyut Sınıflar ve Metotlar
+
+Soyut sınıfların tanımlanması
+Soyut metotların kullanımı
+Nesne Tabanlı Programlama İleri Kavramları
+Arayüzler (Interfaces)
+
+Arayüzlerin tanımlanması ve uygulanması
+Birden fazla arayüzün uygulanması
+Bileşenler (Components)
+
+Bileşen sınıflarının tanımlanması
+Nesnelerin içindeki nesnelerin kullanımı
+Olaylar (Events) ve Delegeler (Delegates)
+
+Olayların tanımlanması ve kullanılması
+Delegelerin kullanımı ve olayların dinlenmesi
+C# Dilinde OOP Örnekleri
+Property ve Indexer
+
+Property'lerin kullanımı
+Indexer'ların tanımlanması
+LINQ (Language Integrated Query)
+
+LINQ sorguları ile nesne koleksiyonları üzerinde işlemler
+LINQ to Objects, LINQ to SQL
+Serialization ve Deserialization
+
+Nesnelerin veri akışlarına (stream) yazılması ve okunması
+XML veya JSON formatlarında serileştirme ve serbest bırakma
+Unit Testing ve Test Driven Development (Opsiyonel)
+
+Unit test yazma ve C# dilinde test sürücülü geliştirme (TDD) süreçleri
+NUnit veya MSTest kullanımı
+---------------------------------
+
+ENTITY FRAMEWORK +  N KATMANLI MİMARİ + OGRENCEKLER MVC +  ASP.NET CORE 6.0 + 	 IDENTITY  + GUVENLIK  + WEB API + JWT + 
+GİT GİTHUB + DESİGN PATTERN +  SOLID PRENSIPLER +  WEB DUNYASI  + ASENKRON VE İLERİ SEVİYE BASLIKLAR + HABERLEŞME PROTOKOLLERİ 
+
+

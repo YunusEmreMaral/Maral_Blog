@@ -1,0 +1,50 @@
+﻿<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div class="comment-top">
+    <h4>Bir Yorum Yapın</h4>
+    <div class="comment-bottom">
+        <form id="commentForm">
+            <input type="hidden" id="BlogID" value="@ViewBag.ID" />
+            <input style="color:black;" class="form-control" type="text" id="CommentUserName" placeholder="Adınız Soyadınız" required="">
+            <input style="color:black;" class="form-control" type="email" id="Email" placeholder="E-Posta" required="">
+            <input style="color:black;" class="form-control" type="text" id="CommentTitle" placeholder="Konu" required="">
+            <textarea style="color:black;" class="form-control" id="CommentContent" placeholder="Yorumunuz" required=""></textarea>
+            <button type="button" class="btn btn-primary submit" onclick="submitComment()">Yorum Yap</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function submitComment() {
+        var blogId = $("#BlogID").val();
+        var userName = $("#CommentUserName").val();
+        var email = $("#Email").val();
+        var title = $("#CommentTitle").val();
+        var content = $("#CommentContent").val();
+
+        $.ajax({
+            type: "POST",
+            url: "/Comment/PartialAddComment",
+            data: {
+                BlogID: blogId,
+                CommentUserName: userName,
+                Email: email,
+                CommentTitle: title,
+                CommentContent: content
+            },
+            success: function (response) {
+             
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Başarılı!',
+                    text: 'Yorumunuz başarıyla eklendi.'
+                });
+
+            },
+            error: function (xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+    }
+</script>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hc6cqVfw8WMhRDsEw/Qxd6V+AjiNZvtQvOLGxr4BzYAajlOh1Ow0sqMQlg/1iKFJajKwT13NQbS5cslr5CmmsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\imgoz\\OneDrive\\Masaüstü\\Murat Yücedağ\\CoreDemo\\Jwt_Proje\\Jwt_Proje.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\imgoz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\imgoz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\imgoz\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\imgoz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\imgoz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\imgoz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

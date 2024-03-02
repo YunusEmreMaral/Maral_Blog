@@ -1,0 +1,31 @@
+﻿@model List<Message2>
+@{
+    ViewData["Title"] = "SendBox";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+    int count = 0;
+}
+
+<h1>Giden Kutusu</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Konu</th>
+        <th>Alıcı</th>
+        <th>Tarih</th>
+        <th>Mesajı Aç</th>
+        <th>Mesajı Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td>@item.Subject</td>
+            <td>@item.ReveiverUser.WriterName</td>
+            <td>@(((DateTime)item.MessageDate).ToString("d"))</td>
+            <td><a href="/Message/MessageDetails/@item.MessageID" class="btn btn-success">Aç</a></td>
+            <th><a href="/Message/DeleteMessage/@item.MessageID" class="btn btn-danger">Sil</a></th>
+        </tr>
+    }
+</table>
+<a href="/Message/SendMessage/" class="btn btn-primary">Yeni Mesaj Oluştur</a>

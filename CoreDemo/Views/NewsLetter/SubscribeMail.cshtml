@@ -1,0 +1,39 @@
+﻿<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div class="tech-btm">
+    <p>Teknoloji, yazılım ve diğer bloglar </p>
+    <form id="subscribeForm" action="/NewsLetter/SubscribeMail" method="post">
+        <input type="email" id="mail" placeholder="Email" required="" name="Mail">
+        <input type="submit" id="btn" value="Abone Ol">
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#subscribeForm").submit(function (e) {
+            e.preventDefault(); // Formun varsayılan davranışını durdur
+
+            // Form verilerini al
+            let mail = $("#mail").val();
+
+            // Ajax isteği yap
+            $.ajax({
+                type: "POST",
+                url: "/Newsletter/SubscribeMail",
+                data: { Mail: mail },
+                success: function (response) {
+                    // Başarılı cevap alındığında Sweet Alert ile bildirim göster
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Başarılı!',
+                        text: 'Mail bültenimize kaydoldunuz!'
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+    });
+</script>
